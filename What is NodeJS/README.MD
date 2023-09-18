@@ -1,4 +1,5 @@
 <h3>What is NodeJS</h3>
+<hr>
 <ul>
 <li>It is neither a JS Framework nor a library<li>
 <li>Node.js is a JavaScript runtime environment built on the V8 JavaScript engine</li>
@@ -9,3 +10,5 @@
 <li>He comes up with idea to embedd V8(Chrome JS Engine which is Open Source) with C++ to create a runtime enviroment which is capable of running JS outside of browser as well</li>
 <li>Now,JS can talk to native machine because of C++</li>
 <li>One can create webservers in JavaScript Languages,it can be used in backend alongwith frontend</li>
+</ul>
+<hr>
