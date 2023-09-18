@@ -1,0 +1,1 @@
+console.log("Hey there! I can also run outside browsers");
