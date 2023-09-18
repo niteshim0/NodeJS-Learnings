@@ -1,7 +1,7 @@
 <h3>What is NodeJS</h3>
 <hr>
 <ul>
-<li>It is neither a JS Framework nor a library<li>
+<li>It is neither a JS Framework nor a library</li>
 <li>Node.js is a JavaScript runtime environment built on the V8 JavaScript engine</li>
 <li>JavaScript is a language which is essentially created for the interactivity on webpage</li>
 <li>In earlier days,JavaScript was used to run only on Web Browsers</li>
