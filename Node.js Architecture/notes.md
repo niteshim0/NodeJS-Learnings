@@ -3,6 +3,7 @@
 Node.js is a runtime environment built on a unique architecture that combines event-driven, non-blocking I/O operations. This architecture makes it particularly well-suited for building scalable and real-time applications. In this document, we'll explore the Node.js architecture and dive into concepts like thread pools, blocking operations, and non-blocking operations.
 
 ## Node.js Architecture
+![Node.js Architecture](https://www.simplilearn.com/ice9/free_resources_article_thumb/node-js-archi.JPG)
 
 - **Event Loop**: At the core of Node.js is the event loop. It's a single-threaded, non-blocking mechanism responsible for managing all I/O operations and asynchronous events. The event loop efficiently handles multiple concurrent connections without the need for a separate thread for each connection.
 
