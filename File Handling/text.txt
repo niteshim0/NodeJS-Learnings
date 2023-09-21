@@ -1,0 +1,2 @@
+Writing on a file
+This data will be appended to the file.
