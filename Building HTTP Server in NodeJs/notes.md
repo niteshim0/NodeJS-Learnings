@@ -32,7 +32,7 @@ cd nodejs-http-server
 ## Step7 : Test Your Server:
 <li>Open the web browser and move to the port which you have provided</li>
 
-## Step* :Extend Your Server:
+## Step 8 :Extend Your Server:
 
 <li>Customize your server by handling different types of requests and responses.</li>
 <li>Add more functionality as needed for your specific application.</li>
