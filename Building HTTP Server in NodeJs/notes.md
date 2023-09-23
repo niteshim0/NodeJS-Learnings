@@ -9,10 +9,12 @@ Creating an HTTP server in Node.js is relatively straightforward. Node.js has a 
 
  <li>Make a new directory for your Node.js project.</li>
  <br>
+ 
  ```bash
 mkdir nodejs-http-server
 cd nodejs-http-server
 ```
+
 ## Step3 : Initialize a Node.js Project 
 
  <li>Run npm init to create a package.json file for managing dependencies.</li>
