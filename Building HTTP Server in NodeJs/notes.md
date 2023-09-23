@@ -8,7 +8,7 @@ Creating an HTTP server in Node.js is relatively straightforward. Node.js has a 
 ## Step2 : Create a Project Directory
 
  <li>Make a new directory for your Node.js project.</li>
-
+ <br>
  ```bash
 mkdir nodejs-http-server
 cd nodejs-http-server
@@ -32,7 +32,7 @@ cd nodejs-http-server
 ## Step7 : Test Your Server:
 <li>Open the web browser and move to the port which you have provided</li>
 
-## Step 8 :Extend Your Server:
+## Step8 :Extend Your Server:
 
 <li>Customize your server by handling different types of requests and responses.</li>
 <li>Add more functionality as needed for your specific application.</li>
