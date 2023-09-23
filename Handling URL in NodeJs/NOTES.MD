@@ -6,7 +6,7 @@
 
 ## Anatomy of a URL
 
-![Anatomy]("https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-all.png")
+![Anatomy](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-all.png)
 
 ### 1.Scheme:
  indicates the protocol that the browser must use to request the resource (a protocol is a set method for exchanging or transferring data around a computer network) such as "http," "https," "ftp," or "mailto."
