@@ -17,23 +17,44 @@ app.get('/api/users',(req,res)=>{
   return res.json(users);
 });
 //Dynamic Path Parameters
-app.get('/api/users/:id',(req,res)=>{
+// app.get('/api/users/:id',(req,res)=>{
+//   const id = Number(req.params.id);
+//   const user = users.find((user)=>user.id===id);
+//   return res.json(user);
+// });
+
+// app.post('/api/users',(req,res)=>{
+//   //Creates new User
+//   return res.json({status:"pending"});
+// });
+// app.put('/api/users/:id',(req,res)=>{
+//   //Edit the user with id
+//   return res.json({status:"pending"});
+// })
+// app.patch('/api/users/:id',(req,res)=>{
+//   //Edit the user with id
+//   return res.json({status:"pending"});
+// })
+// app.delete('/api/users/:id',(req,res)=>{
+//   //Delete the user with id
+//   return res.json({status:"pending"});
+// });
+//If route of different HTTP methods are same
+app.route('/api/users/:id')
+.get((req,res)=>{
   const id = Number(req.params.id);
   const user = users.find((user)=>user.id===id);
   return res.json(user);
+})
+.patch((req,res)=>{
+  //Edit the user with id
+  return res.json({status:"pending"})}
+)
+.delete((req,res)=>{
+    //Delete the user with id
+    return res.json({status:"pending"});
 });
 
-app.post('/api/users',(req,res)=>{
-  //Creates new User
-  return res.json({status:"pending"});
-});
-app.patch('/api/users/:id',(req,res)=>{
-  //Edit the user with id
-  return res.json({status:"pending"});
-})
-app.delete('/api/users/:id',(req,res)=>{
-  //Delete the user with id
-  return res.json({status:"pending"});
-})
+
 
 app.listen(PORT,()=>console.log(`Server running at Port:${PORT}`));
