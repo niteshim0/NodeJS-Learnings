@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 8000;
 const users = require('./MOCK_DATA.json');
-
+const fs = require('fs');
 //Getting HTML file
 app.get("/users",(req,res)=>{
   const html = `
@@ -23,10 +23,15 @@ app.get('/api/users',(req,res)=>{
 //   return res.json(user);
 // });
 
-// app.post('/api/users',(req,res)=>{
-//   //Creates new User
-//   return res.json({status:"pending"});
-// });
+app.post('/api/users',(req,res)=>{
+  //Creates new User 
+  const body = req.body;  
+  users.push({...body,id:users.length+1});
+  fs.writeFile("./MOCK_DATA.json",JSON.stringify(users),(err,data)=>{
+    return res.json({status:"success",
+                    id: users.length});
+  });
+});
 // app.put('/api/users/:id',(req,res)=>{
 //   //Edit the user with id
 //   return res.json({status:"pending"});
