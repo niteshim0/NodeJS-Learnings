@@ -22,8 +22,6 @@ MongoDB's flexibility, scalability, and support for modern development paradigms
 - Data analytics and reporting systems
 - IoT (Internet of Things) applications
 
-Please note that MongoDB's features and capabilities may have evolved since my last knowledge update in September 2021, so I recommend checking the official MongoDB documentation for the latest information and updates.
-
 # Installation of MongoDB on Windows
 
 You can install MongoDB on a Windows operating system by following these steps:
