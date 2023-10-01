@@ -13,7 +13,7 @@ app.post('/api/users',(req,res)=>{
   //Creates new User 
   const body = req.body;  
   if(!body){
-    return res.json(400).json({msg:"input data is required"});//something wrond doing by client
+    return res.status(400).json({msg:"input data is required"});//something wrong doing by client
   }
   users.push({...body,id:users.length+1});
   fs.writeFile("./MOCK_DATA.json",JSON.stringify(users),(err,data)=>{
@@ -25,16 +25,16 @@ app.route('/api/users/:id')
 .get((req,res)=>{
   const id = Number(req.params.id);
   const user = users.find((user)=>user.id===id);
-  if(!user) return res.json({error: "user not found"});
+  if(!user) return res.status(400).json({error: "user not found"});
   return res.json(user);
 })
 .patch((req,res)=>{
   //Edit the user with id
-  return res.json({status:"pending"})}
+  return res.status(500).json({status:"pending"})}
 )
 .delete((req,res)=>{
     //Delete the user with id
-    return res.json({status:"pending"});
+    return res.status(500).json({status:"pending"});
 });
 
 
