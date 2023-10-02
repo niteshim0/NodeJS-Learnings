@@ -69,3 +69,7 @@ Mongosh is the official MongoDB shell for interacting with MongoDB from the comm
 ### 4. Verify Installation
 - Open a command prompt and run the following command to verify that Mongosh is installed: mongosh --version
 
+### For getting started one can visit this article, it's great.
+[Getting Started with MongoDB and Mongoose](https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/)
+
+
