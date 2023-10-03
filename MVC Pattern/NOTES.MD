@@ -2,6 +2,9 @@
 
 The **Model-View-Controller (MVC)** pattern is a widely used architectural design pattern in software development. It helps in organizing and separating an application's components to achieve modularity and maintainability.
 
+Flow::->Controller manipulates the model and model updates the view.
+![Flow Diagram](https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png)
+
 ## Components of MVC
 
 ### 1. Model
